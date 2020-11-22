@@ -1,659 +1,872 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Snapshot - Free Bootstrap 4 Template by Colorlib</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+<head>
+  <!-- ================== Basics =================== -->
+  <title>Hari Om Car Seat</title>
+  <meta charset="utf-8">
+  <meta name="description" content="CN Desiigns have explored various genres of projects for both Commercial and Residential. From Studio Apartments to Luxurious Bungalows, from Shops to Showrooms, from Studio Offices to Large Corporate Offices, Banks, Schools, Auditorium and much more.">
+  <meta name="author" content="CN Desiigns">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+  <!-- ================== Font =================== -->
+  <link rel="stylesheet" type="text/css" href="font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="font/mdi-font/css/material-design-iconic-font.min.css">
+  <!-- ================== Vendor CSS =================== -->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap4/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/animate.css">
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/revolution/settings.css">
+  <link rel="stylesheet" type="text/css" href="vendor/revolution/navigation.css">
+  <link rel="stylesheet" type="text/css" href="vendor/revolution/layers.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
-  	<nav id="navbar" class="navbar">
-		  <ul class="nav-menu">
-		    <li>
-		      <a data-scroll="home" href="#home" class="dot active">
-		        <span>Home</span>
-		      </a>
-		    </li>
-		    <li>
-		      <a data-scroll="about" href="#about" class="dot">
-		        <span>About</span>
-		      </a>
-		    </li>
-		    <li>
-		      <a data-scroll="services" href="#services" class="dot">
-		        <span>Services</span>
-		      </a>
-		    </li>
-		    <li>
-		      <a data-scroll="work" href="#work" class="dot">
-		        <span>Gallery</span>
-		      </a>
-		    </li>
-		    <li>
-		      <a data-scroll="testimonial" href="#testimonial" class="dot">
-		        <span>Testimony</span>
-		      </a>
-		    </li>
-		    <li>
-		      <a data-scroll="contact" href="#contact" class="dot">
-		        <span>Contact</span>
-		      </a>
-		    </li>
-		  </ul>
-		</nav>
-		<!-- End Nav Section -->
+  <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
 
-		<!-- Start Home Section -->
-		<section id="home" class="hero-wrap js-fullheight" style="background-image: url(images/bg-1.jpg);" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-          <div class="col-lg-7 ftco-animate d-flex align-items-center">
-          	<div class="text text-center">
-          		<h1 class="logo"><a href="index.html"><span class="flaticon-camera-shutter"></span>Snapshot<small>Photographer / San Francisco</small></a></h1>
-		  				<h1 class="mb-4">We Make <br>Something Great</h1>
-		  				<p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts.</p>
-		  				<p class="mt-5"><a href="#" class="btn-custom">Contact us <span class="ion-ios-arrow-round-forward"></span></a></p>
-            </div>
-          </div>
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $Idle: 0,
+              $SlideDuration: 5000,
+              $SlideEasing: $Jease$.$Linear,
+              $PauseOnHover: 4,
+              $SlideWidth: 140,
+              $Align: 0
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+
+<body>
+  <!-- Page Loader -->
+  <div id="page-loader">
+    <div class="page-loader__inner">
+      <div class="page-loader__spin"></div>
+    </div>
+  </div>
+  <!-- End Page Loader -->
+  <!-- Page Wrap -->
+  <div class="page-wrap">
+    <!-- Header Stick -->
+    <header class="header-stick header-stick--dark">
+      <div class="container clearfix">
+        <h1 class="logo pull-left">
+          <a href="index.html">
+            <img alt="Logo" src="img/logo2.png">
+          </a>
+        </h1>
+        <nav class="menu-desktop pull-right">
+          <ul class="ul--inline ul--no-style">
+            <li>
+              <a href="index.html">
+               HOME
+              </a>
+            </li>
+              <li>
+                  <a href="about-us.html">
+                      ABOUT 
+                  </a>
+              </li>
+            <li class="li-has-sub">
+                <a href="projects.html">
+                    OUR SERVICES
+                </a>
+              <ul class="sub-menu ul--no-style">
+                <li>
+                  <a href="residential.html">
+                   SEAT COVER
+                  </a>
+                </li>
+                <li>
+                  <a href="steering.html">
+                     STEERING COVER
+                  </a>
+                </li>
+                <li>
+                  <a href="neck-pillow.html">
+                 NECK PILLOW
+                  </a>
+                </li>
+                 <li>
+                  <a href="gear-boot.html">
+                 GEAR BOOT
+                  </a>
+                </li>
+                 <li>
+                  <a href="seatbelt.html">
+                SEAT BELT CUSHION
+                  </a>
+                </li>
+                 <li>
+                  <a href="floor.html">
+                  CAR FLOOR LAMINATION
+                  </a>
+                </li>
+                 <li>
+                  <a href="interial.html">
+               INTERIAL
+                  </a>
+                </li>
+              </ul>
+            </li>
+              <!--<li>
+                  <a href="testimonials.html">
+                      TESTIMONIALS
+                  </a>
+              </li>-->
+            <li>
+              <a href="contact.html">
+               CONTACT US
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header Stick -->
+    <!-- Header Mobile -->
+    <header class="header-mobile">
+      <div class="container clearfix">
+        <h1 class="logo pull-left">
+          <a href="index.html">
+            <img alt="Logo" src="img/logo2.png">
+          </a>
+        </h1>
+        <a class="menu-mobile__button">
+          <i class="fa fa-bars"></i>
+        </a>
+        <nav class="menu-mobile hidden">
+          <ul class="ul--no-style">
+            <li>
+              <a href="index.html">
+              HOME
+              </a>
+            </li>
+              <li>
+                  <a href="about-us.html">
+                     ABOUT US
+                  </a>
+              </li>
+            <li>
+              <i class="fa fa-plus menu-mobile__more"></i>
+                <a href="projects.html">
+                    OUR SERVICES
+                </a>
+              <ul class="ul--no-style hidden">
+                <li>
+                  <a href="residential.html">
+                   SEAT COVER
+                  </a>
+                </li>
+                <li>
+                  <a href="steering.html">
+                     STEERING COVER
+                  </a>
+                </li>
+                <li>
+                  <a href="neck-pillow.html">
+                 NECK PILLOW
+                  </a>
+                </li>
+                 <li>
+                  <a href="gear-boot.html">
+                 GEAR BOOT
+                  </a>
+                </li>
+                 <li>
+                  <a href="seatbelt.html">
+                SEAT BELT CUSHION
+                  </a>
+                </li>
+                 <li>
+                  <a href="floor.html">
+                  CAR FLOOR LAMINATION
+                  </a>
+                </li>
+                 <li>
+                  <a href="interial.html">
+               INTERIAL
+                  </a>
+                </li>
+              
+              </ul>
+            </li>
+              <!--<li>
+         <a href="testimonials.html">
+             TESTIMONIALS
+         </a>
+     </li>-->
+
+            <li>
+              <a href="contact.html">
+                CONTACT US
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header Mobile -->
+    <!-- Header Desktop -->
+    <header class="header-desktop header2">
+      <div class="container clearfix">
+        <h1 class="logo pull-left">
+          <a href="index.html">
+            <img alt="Logo" src="img/logo2.png">
+          </a>
+        </h1>
+        <nav class="menu-desktop menu-desktop--show pull-right">
+          <ul class="ul--inline ul--no-style">
+              <li>
+                  <a href="index.html">
+                      HOME
+                  </a>
+              </li>
+              <li>
+                  <a href="about-us.html">
+                     ABOUT US
+                  </a>
+              </li>
+              <li class="li-has-sub">
+                  <a href="projects.html">
+                   OUR SERVICES
+
+                  </a>
+                 <ul class="sub-menu ul--no-style">
+               <li>
+                  <a href="residential.html">
+                   SEAT COVER
+                  </a>
+                </li>
+                <li>
+                  <a href="steering.html">
+                     STEERING COVER
+                  </a>
+                </li>
+                <li>
+                  <a href="neck-pillow.html">
+                 NECK PILLOW
+                  </a>
+                </li>
+                 <li>
+                  <a href="gear-boot.html">
+                 GEAR BOOT
+                  </a>
+                </li>
+                 <li>
+                  <a href="seatbelt.html">
+                SEAT BELT CUSHION
+                  </a>
+                </li>
+                 <li>
+                  <a href="floor.html">
+                  CAR FLOOR LAMINATION
+                  </a>
+                </li>
+                 <li>
+                  <a href="interial.html">
+               INTERIAL
+                  </a>
+                </li>
+              </ul>
+              </li>
+              <!--<li>
+          <a href="testimonials.html">
+              TESTIMONIALS
+          </a>
+      </li>-->
+
+              <li>
+                  <a href="contact.html">
+                     CONTACT US
+                  </a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header Desktop -->
+  
+    <!-- Slider -->
+    <section class="slide2" style="border-bottom:solid 2px #94c321">
+      <!-- revolution slider begin -->
+      <div class="rev_slider_wrapper">
+        <div id="revolution-slider2" class="rev_slider" data-version="5.4.4" style="display: none;">
+          <ul>
+            <li data-transition="crossfade" data-slotamount="7" data-masterspeed="2000" data-delay="2000">
+              <!--  BACKGROUND IMAGE -->
+              <img src="img/slide-01.jpg" alt="CN Desiigns, Mumbai, Interior Designers">
+              <div class="tp-caption slide-content-2" data-x="center" data-y="center" data-fontsize="[72, 72, 58, 38]" data-lineheight="[106, 106, 76, 50]"
+                data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:bottom;rZ:90deg;sX:2;sY:2;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                HARIOM
+                <span class="color">PAD</span>
+              </div>
+
+              <a href="contact.html" class="tp-caption au-btn au-btn--big au-btn--pill au-btn--yellow au-btn--slide" data-x="center" data-y="center"
+                data-voffset="['150','150','120','95']" data-frames='[{"delay":3000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'>
+                Contact now
+              </a>
+            </li>
+
+            <li data-transition="scaledownfromtop" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
+              <!--  BACKGROUND IMAGE -->
+              <img src="img/slide-02.jpg" alt="CN Desiigns, Mumbai, Interior Designers">  
+            </li>
+              <li data-transition="crossfade" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
+                  <!--  BACKGROUND IMAGE -->
+                  <img src="img/slide-03.jpg" alt="CN Desiigns, Mumbai, Interior Designers">
+              </li>
+              <li data-transition="scaledownfromtop" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
+                  <!--  BACKGROUND IMAGE -->
+                  <img src="img/slide-04.jpg" alt="CN Desiigns, Mumbai, Interior Designers">
+              </li>
+              <li data-transition="crossfade" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
+                  <!--  BACKGROUND IMAGE -->
+                  <img src="img/slide-05.jpg" alt="CN Desiigns, Mumbai, Interior Designers">
+              </li>
+            <li data-transition="scaledownfromtop" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
+              <!--  BACKGROUND IMAGE -->
+              <img src="img/slide-06.jpg" alt="Slide 2">
+             
+            </li>
+          </ul>
         </div>
       </div>
+      <!-- revolution slider end -->
+      <a class="mouse" href="#down">
+        <span class="mouse__wheel"></span>
+        <i class="zmdi zmdi-chevron-down"></i>
+      </a>
     </section>
-		<!-- End Home Section -->
+    <!-- End Slider -->
+    <div id="down"></div>
 
-		<!-- Start About Me Section -->
-		<section class="ftco-about img ftco-section" id="about">
-    	<div class="container">
-    		<div class="row d-flex no-gutters">
-    			<div class="col-md-6 col-lg-6 d-flex">
-    				<div class="img-about img d-flex align-items-stretch">
-    					<div class="overlay"></div>
-	    				<div class="img img-video d-flex align-self-stretch align-items-center" style="background-image:url(images/about-2.jpg);">
-	    					<div class="video justify-content-center">
-									<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-										<span class="ion-ios-play"></span>
-			  					</a>
-								</div>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-6 pl-md-5">
-	          <div class="heading-section ftco-animate">
-	            <h2 class="mb-4">Snapshot is A Creative Direction, <br>Photography Agency</h2>
-	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+    <!-- We Are -->
+        <section class="we-are">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            <span style="color:#94c321;">HARI OM</span> <span>PAD</span>
+                        </h3>
+                        <hr />
+                        <h4>Hari Om Pad - The Name You Can Trust For A Quality Auto Upholstery</h4><br>
+                        <p style="text-align:justify;">
+                          We offer a wide range of Auto Upholestery Services in Mumbai, Navi Mumbai, Thane and its near by location.We are specialist in optimum quality Car Seat Covers, steering cover and other interior Car Accessories. We have wide range normal seat covers, leather seat covers and art leather seat covers in different size and colors in order to cater the varied need of our clients.
+                        </p>
+                         <p style="text-align:justify;">
+                          We are appreciated due to color fastness, finish, perfect stitching and designs. We offer these seat covers at market leading prices to our esteemed clients. We provides complete range of car seat covers for Ashok, Aston, Audi, Bentley, BMW, Bugatti, Chevrolet, Ferrari, Fiat, Force, Ford, Hindustan, Honda, Hyundai, ICML, Isuzu, Jaguar, Lamborghini, Land, Mahindra, Maruti, Maserati, Mercedes, MINI, Mitsubishi, Nissan, Polaris, Porsche, Premier, Renault, Rolls, San, Skoda, SsangYong, Tata, Toyota, Volkswagen and Volvo.
+                        </p>
+                        </div>
+                       
 
-	            <div class="counter-wrap ftco-animate d-flex my-md-4">
-	              <div class="text">
-	              	<p class="mb-4">
-		                <span class="number" data-number="120">0</span>
-		                <span>Project complete</span>
-	                </p>
-	              </div>
-		          </div>
-		          <div class="d-flex w-100">
-		            <div class="img img-about-2 mr-2" style="background-image: url(images/about.jpg);"></div>
-		            <div class="img img-about-2 ml-2" style="background-image: url(images/about-3.jpg);"></div>
-		          </div>
-		          <blockquote class="blockquote mt-5">
-		          	<p class="mb-2">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.."</p>
-		          	<span>&mdash; Lucy Lee</span>
-		          </blockquote>
-	          </div>
-	        </div>
-        </div>
-    	</div>
-    </section>
-		<!-- End About Me Section -->
-
-		<!-- Start Services Section -->
-		<section id="services" class="ftco-section">
-		  <div class="container">
-		  	<div class="row">
-		  		<div class="col-md-9">
-		  			<div class="row">
-				  		<div class="col-md-5 heading-section ftco-animate pb-5">
-		            <h2 class="mb-4">Photography Services</h2>
-		            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
-		          </div>
-				  	</div>
-		  			<div class="row">
-		        	<div class="col-md-4">
-		        		<div class="media block-6 services d-block ftco-animate">
-		              <div class="icon"><span class="flaticon-video-camera"></span></div>
-		              <div class="media-body">
-		                <h3 class="heading mb-3">Movies &amp; Advertising Videos</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
-		              </div>
-		            </div> 
-		        	</div>
-		        	<div class="col-md-4">
-		        		<div class="media block-6 services d-block ftco-animate">
-		              <div class="icon"><span class="flaticon-video-player"></span></div>
-		              <div class="media-body">
-		                <h3 class="heading mb-3">Clip &amp; Music Videos</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
-		              </div>
-		            </div> 
-		        	</div>
-		        	<div class="col-md-4">
-		        		<div class="media block-6 services d-block ftco-animate">
-		              <div class="icon"><span class="flaticon-video-player-1"></span></div>
-		              <div class="media-body">
-		                <h3 class="heading mb-3">Short Film Productions</h3>
-		                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
-		              </div>
-		            </div> 
-		        	</div>
-	        	</div>
-	        </div>
-	        <div class="col-md-3 d-flex align-items-stretch">
-	        	<div class="img w-100" style="background-image: url(images/about.jpg);"></div>
-	        </div>
-        </div>
-        <div class="row progress-circle pt-md-5">
-        	<div class="col-md-7 order-md-last py-md-5">
-        		<div class="row">
-				  		<div class="col-md-4 mb-md-0 mb-4 ftco-animate">
-					      <div class="">
-					        <h2 class="text-center mb-4">Creation</h2>
-
-					        <!-- Progress bar 1 -->
-					        <div class="progress mx-auto" data-value='90'>
-					          <span class="progress-left">
-		                  <span class="progress-bar border-primary"></span>
-					          </span>
-					          <span class="progress-right">
-		                  <span class="progress-bar border-primary"></span>
-					          </span>
-					          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-					            <div class="h5">90<sup class="small">%</sup></div>
-					          </div>
-					        </div>
-					        <!-- END -->
-					      </div>
-					    </div>
-
-					    <div class="col-md-4 mb-md-0 mb-4 ftco-animate">
-					      <div class="">
-					        <h2 class="text-center mb-4">Development</h2>
-
-					        <!-- Progress bar 1 -->
-					        <div class="progress mx-auto" data-value='80'>
-					          <span class="progress-left">
-		                  <span class="progress-bar border-primary"></span>
-					          </span>
-					          <span class="progress-right">
-		                  <span class="progress-bar border-primary"></span>
-					          </span>
-					          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-					            <div class="h5">80<sup class="small">%</sup></div>
-					          </div>
-					        </div>
-					        <!-- END -->
-					      </div>
-					    </div>
-
-					    <div class="col-md-4 mb-md-0 mb-4 ftco-animate">
-					      <div class="">
-					        <h2 class="text-center mb-4">Production</h2>
-
-					        <!-- Progress bar 1 -->
-					        <div class="progress mx-auto" data-value='75'>
-					          <span class="progress-left">
-		                  <span class="progress-bar border-primary"></span>
-					          </span>
-					          <span class="progress-right">
-		                  <span class="progress-bar border-primary"></span>
-					          </span>
-					          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-					            <div class="h5">75<sup class="small">%</sup></div>
-					          </div>
-					        </div>
-					        <!-- END -->
-					      </div>
-					    </div>
-
-					    <div class="p-md-4 mt-4">
-					    	<div class="col-md-8 ftco-animate">
-						    	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast.</p>
-					    	</div>
-					    </div>
-					  </div>
-					</div>
-					<div class="col-md-5 d-flex align-items-stretch">
-	        	<div class="img w-100" style="background-image: url(images/about-2.jpg);"></div>
-	        </div>
-		  	</div>
-		  </div>
-		</section>  
-		<!-- End Services Section -->
-
-		<!-- Start Testimonials Section -->
-		<section id="work" class="ftco-section">
-		  <div class="container">
-		  	<div class="row justify-content-center">
-		  		<div class="col-md-4 heading-section text-center ftco-animate pb-5">
-            <h2 class="mb-4">Selected Projects</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
-          </div>
-		  	</div>
-		  </div> 
-		  <div class="container-fluid px-md-0">
-        <div class="row no-gutters">
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-1.jpg);">
-            	<a href="images/model-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-2.jpg);">
-            	<a href="images/model-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-3.jpg);">
-            	<a href="images/model-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-4.jpg);">
-            	<a href="images/model-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-5.jpg);">
-            	<a href="images/model-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-6.jpg);">
-            	<a href="images/model-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-7.jpg);">
-            	<a href="images/model-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-8.jpg);">
-            	<a href="images/model-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-9.jpg);">
-            	<a href="images/model-9.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-10.jpg);">
-            	<a href="images/model-10.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-11.jpg);">
-            	<a href="images/model-11.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="model img d-flex align-items-end" style="background-image: url(images/model-12.jpg);">
-            	<a href="images/model-12.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-	    					<span class="icon-expand"></span>
-	    				</a>
-            	<div class="desc w-100 px-4">
-	              <div class="text w-100 mb-3">
-	              	<span>Nature</span>
-	              	<h2><a href="work-single.html">Beautiful Work</a></h2>
-	              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-		</section>
-		<!-- End Project Section -->
-
-		<section class="ftco-section testimony-section" id="testimonial">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-4 heading-section ftco-animate">
-          	<span class="subheading">Testimony</span>
-            <h2 class="mb-4">Our satisfied customer says</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-          </div>
-        </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel">
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="pl-5">
-	                    <p class="name">Garreth Smith</p>
-	                    <span class="position">CEO Founder of Commercial Building</span>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="pl-5">
-	                    <p class="name">Garreth Smith</p>
-	                    <span class="position">CEO Founder of Interior Design</span>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="pl-5">
-	                    <p class="name">Garreth Smith</p>
-	                    <span class="position">Exterior Designer</span>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="pl-5">
-	                    <p class="name">Garreth Smith</p>
-	                    <span class="position">Landscape Designer</span>
-	                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="pl-5">
-	                    <p class="name">Garreth Smith</p>
-	                    <span class="position">System Analyst</span>
-	                  </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-			</div>
-		</section>
+        </section>
+        <!-- End we are -->
 
-		<!-- Start Contact Section -->
-		<section class="ftco-section contact-section" id="contact">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-4 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Contact Me</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
-          </div>
-        </div>
-
-        <div class="row mb-5">
-          <div class="col-md-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Address</h3>
-		            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-		          </div>
-	          </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Contact Number</h3>
-		            <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
-	            </div>
-	          </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Email Address</h3>
-		            <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-		          </div>
-	          </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box text-center p-4">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<div>
-	          		<h3 class="mb-4">Website</h3>
-		            <p><a href="#">yoursite.com</a></p>
-	            </div>
-	          </div>
-          </div>
-        </div>
-
-        <div class="row block-9">
-          <div class="col-md-6 ftco-animate">
-            <form action="#" class="contact-form p-4 p-md-5 py-md-5">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
+      <!-- Service -->
+      <div class="col-md-12"><div class="container">
+                        <h3>
+                            <span style="color:#94c321;">OUR</span> <span>SERVICES</span>
+                        </h3><hr />
+                    </div></div><br>
+      <section class="service">
+          <div class="service-wrap">
+           
+              <div class="service__item" style="background-image: url('img/seat.jpg');">
+                  <div class="service__item-inner">
+                      <img alt="Icon 3" src="img/icon/seat.png">
+                      <a href="residential.html"><h4>Seat Cover</h4></a>
+                  </div>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
+              <!-- end service item -->
+              <div class="service__item" style="background-image: url('img/stearing.jpg');">
+                  <div class="service__item-inner">
+                      <img alt="Icon 1" src="img/icon/steeringg.png">
+                      <a href="commercial.html"><h4>Steering Cover</h4></a>
+                  </div>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
+              <!-- end service item -->
+              <div class="service__item" style="background-image: url('img/neck.jpg');">
+                  <div class="service__item-inner">
+                      <img alt="Icon 2" src="img/icon/neck.png">
+                      <a href="industrial.html"><h4>Neck Pillow</h4></a>
+                  </div>
               </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              <!-- end service item -->
+             <div class="service__item" style="background-image: url('img/gear.jpg');">
+                  <div class="service__item-inner">
+                      <img alt="Icon 3" src="img/icon/gearr.png">
+                      <a href="residential.html"><h4>Gear Boot</h4></a>
+                  </div>
               </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
-          </div>
+             <!-- end service item -->
 
-          <div class="col-md-6 d-flex align-items-stretch">
-          	<div id="map"></div>
           </div>
+      </section>
+      <!-- next row -->
+      <section class="service">
+          <div class="service-wrap">
+           
+              <div class="service__item" style="background-image: url('img/seatbelt.jpg');">
+                  <div class="service__item-inner">
+                      <img alt="Icon 3" src="img/icon/seat2.png">
+                      <a href="residential.html"><h4>Seat & Seat Belt Cushion</h4></a>
+                  </div>
+              </div>
+              <!-- end service item -->
+              <div class="service__item" style="background-image: url('img/service-03.jpg');">
+                  <div class="service__item-inner">
+                      <img alt="Icon 1" src="img/icon/carpet.png">
+                      <a href="commercial.html"><h4>Car Floor Lamination</h4></a>
+                  </div>
+              </div>
+             
+             <!-- end service item -->
+             <div class="service__item" style="background-image: url('img/interial.jpg');">
+                  <div class="service__item-inner">
+                      <img alt="Icon 3" src="img/icon/interial.png">
+                      <a href="residential.html"><h4>Interial (Wood & Door)</h4></a>
+                  </div>
+              </div>
+
+          </div>
+      </section>
+      <!-- End service -->
+
+       <section class="we-are">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            <span style="color:#94c321;">OUR</span> <span>PROCESS</span>
+                        </h3>
+                        <hr />
+                        <h4>In Three Step Get A New Look For Your Car Interior.</h4><br>
+                    </div>
+                       <!--headingsection end  -->
+
+                 <div class="col-md-4">
+                 <h4>
+                 <span style="color:#94c321;">Fabric</span> <span>Cutting</span>
+                 </h4>
+                 <hr />
+                 <img src="img/icon/fabric.png"><br><br>
+                  <p style="text-align: justify;">
+                  There they are visually controlled once more and then put on tables. Cutting devices featuring blades are placed on these tables to fit the maximum area possible of the leather. The table is then pressed and the cutting tools cut the parts according to the shape required to assemble the car seat.</p>	
+                 </div>
+
+                  <div class="col-md-4">
+                 <h4>
+                 <span style="color:#94c321;">Sewing and</span> <span>Stitching</span>
+                 </h4>
+                 <hr />
+                  <img src="img/icon/sewing.png"><br><br>
+
+                  <p style="text-align: justify;">
+                  Once the parts are cut they need to be prepared for sewing. To ensure that the sewing complies with the standards, the edges of the parts are skived, thus ensuring minimal grain and roughness on the areas to be sewn.</p>	                 
+                  </div>
+
+                  <div class="col-md-4">
+                 <h4>
+                 <span style="color:#94c321;">Fabric</span> <span>Fitting</span>
+                 </h4>
+                 <hr />                
+                  <img src="img/icon/fiting.png"><br><br>
+
+                  <p style="text-align: justify;">
+                  Remove the headrest, put the front seat cover over the seat, put the mental hook through the elastic loop and fasten it on the seat frame under the seats. Put the headrest covers through the headrest, make sure it's fitting correctly and looks good, when it’s done, put it through the holes and make sure it's nice and secure.</p>	                 
+                 </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- End we are -->
+<!-- features -->
+ <section class="we-are">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            <span style="color:#94c321;">OUR AUTO</span> <span>UPHOLSTERY FEATURES</span>
+                        </h3>
+                        <hr />
+                        <!-- <h4>We Have A Six Steps Quality Features.</h4> -->
+                        <br>
+                    </div>
+                       <!--headingsection end  -->
+
+<div class="col-md-6">
+<ul style="list-style: none">
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Produce from the highest quality fabrics.</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Long term durability.</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Fade & Stain Resistant.</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Easy to clean.</p></li>
+
+</ul><hr>
+
+</div>
+
+<div class="col-md-6">
+<ul style="list-style: none">
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Speciaaly crafted foy your car.</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Contemporary design.</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i>  Heat resistant.</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Skinn friendly.</p></li>
+
+</ul><hr>
+<br><br>
+</div>
+<img src="img/icon/hex.png">
+                
+                 
+
+                  
+
+
+
+                </div>
+            </div>
+        </section>
+<!-- features part end -->
+
+
+        <!-- Testi-Partner -->
+        <section class="testi-partner">
+            <div class="container">
+                <div class="row">
+                    <h3 style="padding:0px 17px;">
+                        <span style="color:#94c321;">OUR </span><span>CLIENT SAY'S</span>
+                    </h3>
+                    <hr />
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="testi-partner__left">
+                            <div class="testi-slide-wrap owl-carousel owl-theme" id="owl-testi-1">
+                                <div class="testi__item item clearfix">
+                                    <!--<div class="testi__person">
+                <img src="img/testi-02.jpg" alt="Testi 1">
+                <h6>Mr. Patel</h6>
+                <p class="testi-job">
+                    <em>Developer</em>
+                </p>
+            </div>-->
+                                    <div class="testi__speech">
+                                        <blockquote>
+                                            <i class="fa fa-quote-left big-qoute"></i>
+                                            Working with CN Desiigns was a pleasure. They balanced the architectural vision and the project realities beautifully, had a deep understanding of our priorities, and operated responsively and professionally to all matters. The blend of their design style and an understanding of our factory led to a beautiful, practical, and unique factory.
+                                            We appreciate their efforts in first doing research of our way of working and our product and our company vision and designing the space inside out making it absolutely functional keeping our future provisions in mine too.
+                                        </blockquote>
+                                        <strong>SCHOLLE-IPN India, Factory</strong>
+
+                                    </div>
+                                </div>
+                                <div class="testi__item item clearfix">
+                                    <div class="testi__speech">
+                                        <blockquote>
+                                            <i class="fa fa-quote-left big-qoute"></i>
+                                            We had the pleasure of working with CN Desiigns to remodel and update our Bungalow. They offered a guided process from design, execution, all the way through the final finishing.
+
+                                            Thanks to CN Desiigns, we felt confident throughout the remodel process and the results are amazing.
+
+                                            We would absolutely recommend CN Desiigns.
+                                        </blockquote>
+                                        <strong>Anirudha Joshi, Bunglow, Residence</strong>
+                                    </div>
+                                </div>
+                                <div class="testi__item item clearfix">
+                                    <div class="testi__speech">
+                                        <blockquote>
+                                            <i class="fa fa-quote-left big-qoute"></i>
+                                            Aditya Polymers & Chemicals Pvt. Ltd., staff and visitors are delighted with the open, modern, and bright administrative headquarters.
+                                            <br />
+                                            CN Desiigns team exceeded expectations, providing an inspiring environment that conveys a strong conviction of our brand, values, culture, and goals.
+                                            <br />
+                                            CN Desiigns flexibility, creative thinking, and problem solving attitude, achieved a successful balance of project excellence on a tight budget and an even tighter schedule
+                                            <br />
+                                            The sensible play of material and textures gave us maintenance free interior, simultaneously adding a WOW factor.
+                                        </blockquote>
+                                        <strong>Aditya Polymers & Chemicals India Pvt. Ltd, Commercial</strong>
+                                    </div>
+                                </div>
+                                <div class="testi__item item clearfix">
+                                    <div class="testi__speech">
+                                        <blockquote>
+                                            <i class="fa fa-quote-left big-qoute"></i>
+                                            We want to show our gratitude to both of you, Charvi and Nirmay Shah, for helping us create a beautiful home from merely bricked walls.
+                                            <br />
+                                            Both Vikas and I cannot fathom how lucky we got to find a like minded and terrific team and how we, Without getting stressed, enjoyed the metamorphosis of our abode
+                                            The intricate details that you cared about are evident and Add to the appearance, bearing in mind the time constraints, budget limitations, respecting our own ideas and responding to every single concern.
+                                            <br />
+                                            While we are comfortably settled and relishing every moment, Our friends cannot stop raving about our home.
+                                        </blockquote>
+                                        <strong>Bagree's, Residence</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+             
+                </div>
+            </div>
+        </section>
+        <!-- End Testi-Partner -->
+
+        <!-- client logo0 -->
+        <section class="car-model">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            <span style="color:#94c321;">CAR</span> <span>MODELS</span>
+                        </h3>
+                        <hr />
+                        <h4>AVAILABLE IN A COMPLETE RANGE OF SPECIFICATIONS,APPLICABLE FOR VIRTUALLY ALL CAR MODELS.</h4><br>
+                    </div>
+ <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:150px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
         </div>
-      </div>
-    </section>
-		<!-- End Contact Section -->
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/brand/1.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/3.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/4.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/5.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/6.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/7.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/8.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/9.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/10.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/11.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/12.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/13.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/14.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/15.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/16.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/17.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/18.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/19.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/brand/20.jpg" />
+            </div>
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web design</a>
+    </div>
 
+</div></div></section>
+<!-- car logo section end -->
 
-		<!-- Start Footer Section -->
-		<footer class="ftco-footer py-5">
-		  <div class="container text-center">
-		    <div class="row">
-          <div class="col-md-12 text-center">
+ <!-- We Are -->
+        <section class="disclaimer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>
+                            <span style="color:#94c321;">DISCL</span><span>AIMER</span> 
+                        </h3>
+                        <hr />
+                       <p style="text-align:justify;">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                         We hereby DISCLAIM any, affiliation right, endorsement, sponsorship or ownership of such third party product. We are using third party logos, services, product names, and brands on our website are only for reference.
+                        </p>
+                        
+                        </div>
+                       
 
-					  <ul class="ftco-footer-social p-0">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
+                    </div>
+            </div>
+        </section>
+        <!-- End we are -->
+<br><br>
+  <!-- Contact Info -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <h4 class="p-t-30">About Us</h4>
+                         <div class="p-t-30">
+
+                        <p style="text-align:justify;">
+                          We offer a wide range of Auto Upholestery Services in Mumbai, Navi Mumbai, Thane and its near by location.We are specialist in optimum quality Car Seat Covers, steering cover and other interior Car Accessories.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                     <h4 class="p-t-30">Contact Us</h4>
+                      <br>
+                        <!-- <div class="p-t-30"> -->
+                            <i class="fa fa-home m-r-8"></i>
+                           S.R.A Building
+                           Near Lokhandwala Complex,
+                           kandivali  (E),Mumbai 400101
+                          Maharastra, India.<br>
+                            <i class="fa fa-phone m-r-8"></i>
+                            (+91) 9987144738 <br>
+                            <i class="fa fa-phone m-r-8"></i>
+                            (+91) 9930859971 <br>
+                            <i class="fa fa-envelope m-r-8"></i>
+                            <a href="mailto:h.o.carseat@gmail.com">h.o.carseat@gmail.com</a>
+                        <!-- </div> -->
+
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                     <h4 class="p-t-30">Quick Links</h4><br>
+
+                          <ul style="list-style: none">
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Home</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i> About Us</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i>  Our Services</p></li>
+<li><p><i class="fa fa-arrow-circle-right color1"></i> Contact Us</p></li>
+
+</ul>
+                      
+
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                     <h4 class="p-t-30">Our Locations</h4>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Info -->
+    <!-- Copyright -->
+      <section class="copyright">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-3">
+                      &copy; Hariomcarseat.com All right reserved
+                  </div>
+                  <div class="col-lg-6 col-md-6"></div>
+                  <div class="col-lg-3 col-md-3">
+                      <!-- Developed by&nbsp;<a href="http://www.innois.in" target="_blank"><img src="img/innois.png" alt="innois, effective web development, mumbai" style="margin-top:-2px;" /></a> -->
+                  </div>
+              </div>
           </div>
-        </div>
-		  </div>
-		</footer>
-		<!-- End Footer Section -->
-   
+      </section>  
+      <!-- End Copyright -->
+    <!-- Back to top -->
+    <a href="" id="btn-to-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+    <!-- End Back to top -->
+  </div>
+  <!-- End Page Wrap -->
+   <script type="text/javascript">jssor_1_slider_init();
+    </script>
+  <!-- =================== PLUGIN JS ==================== -->
+  <script src="vendor/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="vendor/wow/wow.min.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap4/popper.min.js" type="text/javascript"></script>
+  <script src="vendor/bootstrap4/bootstrap.min.js" type="text/javascript"></script>
+  <script src="vendor/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+  <script src="vendor/revolution/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+  <script src="vendor/revolution/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+  <!-- Local Revolution -->
+  <!-- <script type="text/javascript" src="vendor/revolution/local/revolution.extension.migration.min.js"></script> -->
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.actions.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.carousel.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.kenburn.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.layeranimation.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.navigation.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.parallax.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.slideanims.min.js"></script>
+  <script type="text/javascript" src="vendor/revolution/local/revolution.extension.video.min.js"></script>
 
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+  <!-- =================== CUSTOM JS ==================== -->
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/revo-custom.js"></script>
+  <script type="text/javascript" src="js/wow-custom.js"></script>
+</body>
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
-    <script src="js/main.js"></script>
-  </body>
 </html>

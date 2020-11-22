@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ================== Basics =================== -->
+    <title>CN Desiigns</title>
+  <style type="text/css">
+    body {
+  background: #ecf0f1;
+}
+
+
+
+#hex2 {
+  width: 150px;
+  height: 150px;
+}
+
+
+#color2 {
+  background-color: #93D;
+}
+
+
+
+.hexagon-wrapper {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.hexagon {
+  height: 100%;
+  width: calc(100% * 0.57735);
+  display: inline-block;
+}
+
+.hexagon:before {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(60deg);
+}
+
+.hexagon:after {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(-60deg);
+}
+
+  </style>
+
+</head>
+
+<body>
+   <div id="hex2" class="hexagon-wrapper">
+    <div id="color2" class="hexagon"></div>
+</div>
+<div id="hex2" class="hexagon-wrapper">
+    <div id="color2" class="hexagon"></div>
+</div>
+<div id="hex2" class="hexagon-wrapper">
+    <div id="color2" class="hexagon"></div>
+</div>
+<div id="hex3" class="hexagon-wrapper">
+    <div id="color3" class="hexagon"></div>
+</div>
+ 
+<div id="hex2" class="hexagon-wrapper">
+    <div id="color2" class="hexagon"></div>
+</div>
+<div id="hex2" class="hexagon-wrapper">
+    <div id="color2" class="hexagon"></div>
+</div>
+<div id="hex2" class="hexagon-wrapper">
+    <div id="color2" class="hexagon"></div>
+</div>
+<!-- Prefixfree.js allows you to write prefix-free CSS
+     This means no -webkit-transform, -moz-transform, ... -->
+<script src="//cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</body>
+
+</html>
